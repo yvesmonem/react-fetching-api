@@ -25,10 +25,7 @@ export const Home = () => {
       <button onClick={onClickhandler}>
         Click here for a Random Dog <br></br>
       </button>
-      <span>
-        <br></br>
-        {url}
-      </span>
+      <img src={url}></img>
     </div>
   );
 };
